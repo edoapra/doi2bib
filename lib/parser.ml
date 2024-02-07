@@ -59,7 +59,7 @@ let parse_atom id atom =
           doi={10.48550/ARXIV.%s},
           archivePrefix={arXiv},
           primaryClass={%s}
-  }|} 
+  }|}
       bibid title authors year id id cat
   in
   try bibentry ()
