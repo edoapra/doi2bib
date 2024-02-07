@@ -56,10 +56,11 @@ let parse_atom id atom =
           author={%s},
           year={%s},
           eprint={%s},
+          doi={10.48550/ARXIV.%s},
           archivePrefix={arXiv},
           primaryClass={%s}
-  }|}
-      bibid title authors year id cat
+  }|} 
+      bibid title authors year id id cat
   in
   try bibentry ()
   with Ezxmlm.Tag_not_found t ->
