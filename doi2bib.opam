@@ -5,7 +5,7 @@ synopsis:
 maintainer: ["marcello.seri@gmail.com"]
 authors: ["Marcello Seri"]
 license: "MIT"
-homepage: "https://github.com/mseri/doi2bib"
+homepage: "https://github.com/edoapra/doi2bib"
 bug-reports: "https://github.com/mseri/doi2bib/issues"
 depends: [
   "dune" {>= "2.7"}
@@ -35,4 +35,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/mseri/doi2bib.git"
+dev-repo: "git+https://github.com/edoapra/doi2bib.git"
