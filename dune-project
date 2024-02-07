@@ -7,7 +7,7 @@
 (generate_opam_files true)
 
 (source
- (github mseri/doi2bib))
+ (github edoapra/doi2bib))
 
 (license MIT)
 
